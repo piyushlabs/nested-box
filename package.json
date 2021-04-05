@@ -1,5 +1,5 @@
 {
-  "name": "my-box",
+  "name": "nested-box",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
