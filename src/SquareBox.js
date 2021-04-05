@@ -8,8 +8,7 @@ class SquareBox extends Component {
 
   render() {
     let { size, color } = this.props;
-    let bor = size / 10;
-    size = size - bor;
+    let bor = size / 20;
     let style = {
       height: size + "px",
       width: size + "px",

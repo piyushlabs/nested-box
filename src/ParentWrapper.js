@@ -25,8 +25,8 @@ class ParentWrapper extends Component {
   render() {
     let { maxSize, step } = this.props;
     let bor = step / 10;
-    maxSize = maxSize - 2 * bor;
-    step = step - bor;
+    maxSize = maxSize + 2 * bor;
+    step = step + bor;
     let nestedBox = <SquareBox size={2 * step} color={this.state.bgcolor} />;
     for (let i = 4 * step; i <= maxSize; i = i + 2 * step) {
       nestedBox = (
